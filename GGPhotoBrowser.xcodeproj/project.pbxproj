@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63DB70DB1B52115B00875664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB70DA1B52115B00875664 /* main.m */; };
+		63DB70DE1B52115B00875664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB70DD1B52115B00875664 /* AppDelegate.m */; };
+		63DB70E11B52115B00875664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB70E01B52115B00875664 /* ViewController.m */; };
+		63DB70E41B52115B00875664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DB70E21B52115B00875664 /* Main.storyboard */; };
+		63DB70E61B52115B00875664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DB70E51B52115B00875664 /* Assets.xcassets */; };
+		63DB70E91B52115B00875664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DB70E71B52115B00875664 /* LaunchScreen.storyboard */; };
+		63DB70F41B52115B00875664 /* GGPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB70F31B52115B00875664 /* GGPhotoBrowserTests.m */; };
+		63DB70FF1B52115B00875664 /* GGPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB70FE1B52115B00875664 /* GGPhotoBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63DB70F01B52115B00875664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DB70CE1B52115B00875664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DB70D51B52115B00875664;
+			remoteInfo = GGPhotoBrowser;
+		};
+		63DB70FB1B52115B00875664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DB70CE1B52115B00875664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DB70D51B52115B00875664;
+			remoteInfo = GGPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63DB70D61B52115B00875664 /* GGPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DB70DA1B52115B00875664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63DB70DC1B52115B00875664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63DB70DD1B52115B00875664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63DB70DF1B52115B00875664 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63DB70E01B52115B00875664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63DB70E31B52115B00875664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DB70E51B52115B00875664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63DB70E81B52115B00875664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63DB70EA1B52115B00875664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DB70EF1B52115B00875664 /* GGPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DB70F31B52115B00875664 /* GGPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPhotoBrowserTests.m; sourceTree = "<group>"; };
+		63DB70F51B52115B00875664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DB70FA1B52115B00875664 /* GGPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DB70FE1B52115B00875664 /* GGPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		63DB71001B52115B00875664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DB70D31B52115B00875664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB70EC1B52115B00875664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB70F71B52115B00875664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DB70CD1B52115B00875664 = {
+			isa = PBXGroup;
+			children = (
+				63DB70D81B52115B00875664 /* GGPhotoBrowser */,
+				63DB70F21B52115B00875664 /* GGPhotoBrowserTests */,
+				63DB70FD1B52115B00875664 /* GGPhotoBrowserUITests */,
+				63DB70D71B52115B00875664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63DB70D71B52115B00875664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DB70D61B52115B00875664 /* GGPhotoBrowser.app */,
+				63DB70EF1B52115B00875664 /* GGPhotoBrowserTests.xctest */,
+				63DB70FA1B52115B00875664 /* GGPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DB70D81B52115B00875664 /* GGPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				63DB70DC1B52115B00875664 /* AppDelegate.h */,
+				63DB70DD1B52115B00875664 /* AppDelegate.m */,
+				63DB70DF1B52115B00875664 /* ViewController.h */,
+				63DB70E01B52115B00875664 /* ViewController.m */,
+				63DB70E21B52115B00875664 /* Main.storyboard */,
+				63DB70E51B52115B00875664 /* Assets.xcassets */,
+				63DB70E71B52115B00875664 /* LaunchScreen.storyboard */,
+				63DB70EA1B52115B00875664 /* Info.plist */,
+				63DB70D91B52115B00875664 /* Supporting Files */,
+			);
+			path = GGPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		63DB70D91B52115B00875664 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63DB70DA1B52115B00875664 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63DB70F21B52115B00875664 /* GGPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				63DB70F31B52115B00875664 /* GGPhotoBrowserTests.m */,
+				63DB70F51B52115B00875664 /* Info.plist */,
+			);
+			path = GGPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		63DB70FD1B52115B00875664 /* GGPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63DB70FE1B52115B00875664 /* GGPhotoBrowserUITests.m */,
+				63DB71001B52115B00875664 /* Info.plist */,
+			);
+			path = GGPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DB70D51B52115B00875664 /* GGPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DB71031B52115B00875664 /* Build configuration list for PBXNativeTarget "GGPhotoBrowser" */;
+			buildPhases = (
+				63DB70D21B52115B00875664 /* Sources */,
+				63DB70D31B52115B00875664 /* Frameworks */,
+				63DB70D41B52115B00875664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGPhotoBrowser;
+			productName = GGPhotoBrowser;
+			productReference = 63DB70D61B52115B00875664 /* GGPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63DB70EE1B52115B00875664 /* GGPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DB71061B52115B00875664 /* Build configuration list for PBXNativeTarget "GGPhotoBrowserTests" */;
+			buildPhases = (
+				63DB70EB1B52115B00875664 /* Sources */,
+				63DB70EC1B52115B00875664 /* Frameworks */,
+				63DB70ED1B52115B00875664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DB70F11B52115B00875664 /* PBXTargetDependency */,
+			);
+			name = GGPhotoBrowserTests;
+			productName = GGPhotoBrowserTests;
+			productReference = 63DB70EF1B52115B00875664 /* GGPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63DB70F91B52115B00875664 /* GGPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DB71091B52115B00875664 /* Build configuration list for PBXNativeTarget "GGPhotoBrowserUITests" */;
+			buildPhases = (
+				63DB70F61B52115B00875664 /* Sources */,
+				63DB70F71B52115B00875664 /* Frameworks */,
+				63DB70F81B52115B00875664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DB70FC1B52115B00875664 /* PBXTargetDependency */,
+			);
+			name = GGPhotoBrowserUITests;
+			productName = GGPhotoBrowserUITests;
+			productReference = 63DB70FA1B52115B00875664 /* GGPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DB70CE1B52115B00875664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "__无邪_";
+				TargetAttributes = {
+					63DB70D51B52115B00875664 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					63DB70EE1B52115B00875664 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 63DB70D51B52115B00875664;
+					};
+					63DB70F91B52115B00875664 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 63DB70D51B52115B00875664;
+					};
+				};
+			};
+			buildConfigurationList = 63DB70D11B52115B00875664 /* Build configuration list for PBXProject "GGPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DB70CD1B52115B00875664;
+			productRefGroup = 63DB70D71B52115B00875664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DB70D51B52115B00875664 /* GGPhotoBrowser */,
+				63DB70EE1B52115B00875664 /* GGPhotoBrowserTests */,
+				63DB70F91B52115B00875664 /* GGPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DB70D41B52115B00875664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DB70E91B52115B00875664 /* LaunchScreen.storyboard in Resources */,
+				63DB70E61B52115B00875664 /* Assets.xcassets in Resources */,
+				63DB70E41B52115B00875664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB70ED1B52115B00875664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB70F81B52115B00875664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DB70D21B52115B00875664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DB70E11B52115B00875664 /* ViewController.m in Sources */,
+				63DB70DE1B52115B00875664 /* AppDelegate.m in Sources */,
+				63DB70DB1B52115B00875664 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB70EB1B52115B00875664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DB70F41B52115B00875664 /* GGPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB70F61B52115B00875664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DB70FF1B52115B00875664 /* GGPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63DB70F11B52115B00875664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DB70D51B52115B00875664 /* GGPhotoBrowser */;
+			targetProxy = 63DB70F01B52115B00875664 /* PBXContainerItemProxy */;
+		};
+		63DB70FC1B52115B00875664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DB70D51B52115B00875664 /* GGPhotoBrowser */;
+			targetProxy = 63DB70FB1B52115B00875664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63DB70E21B52115B00875664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DB70E31B52115B00875664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63DB70E71B52115B00875664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DB70E81B52115B00875664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DB71011B52115B00875664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63DB71021B52115B00875664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DB71041B52115B00875664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63DB71051B52115B00875664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63DB71071B52115B00875664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GGPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGPhotoBrowser.app/GGPhotoBrowser";
+			};
+			name = Debug;
+		};
+		63DB71081B52115B00875664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GGPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGPhotoBrowser.app/GGPhotoBrowser";
+			};
+			name = Release;
+		};
+		63DB710A1B52115B00875664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GGPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GGPhotoBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63DB710B1B52115B00875664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GGPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = otherplayer.GGPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GGPhotoBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DB70D11B52115B00875664 /* Build configuration list for PBXProject "GGPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DB71011B52115B00875664 /* Debug */,
+				63DB71021B52115B00875664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DB71031B52115B00875664 /* Build configuration list for PBXNativeTarget "GGPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DB71041B52115B00875664 /* Debug */,
+				63DB71051B52115B00875664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63DB71061B52115B00875664 /* Build configuration list for PBXNativeTarget "GGPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DB71071B52115B00875664 /* Debug */,
+				63DB71081B52115B00875664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63DB71091B52115B00875664 /* Build configuration list for PBXNativeTarget "GGPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DB710A1B52115B00875664 /* Debug */,
+				63DB710B1B52115B00875664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DB70CE1B52115B00875664 /* Project object */;
+}
