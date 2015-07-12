@@ -37,5 +37,12 @@ NSString *const kDynamicWidth = @"image_width";
     
 }
 
+- (void)setBasicModelDic:(NSDictionary *)dic{
+    self.imageUrl = dic[kDynamicModelImageUrl];
+    
+    self.imageWidth = [dic[kDynamicWidth] floatValue];
+    self.imageHeight = [dic[kDynamicHeight] floatValue];
+
+}
 
 @end

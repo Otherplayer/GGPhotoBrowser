@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GGZoomScrollView.h"
+#import "HYQDynamicModel.h"
 
 @interface GGPhotoCell : UICollectionViewCell
+@property (nonatomic, strong) GGZoomScrollView *imageView;
+
+
+- (void)configureCellWithModel:(HYQDynamicModel *)model;
 
 @end

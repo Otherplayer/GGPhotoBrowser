@@ -17,6 +17,9 @@ extern NSString *const kDynamicModelFavour;
 extern NSString *const kDynamicModelTitle;
 extern NSString *const kDynamicModelUid;
 extern NSString *const kDynamicBehaviorId;
+extern NSString *const kDynamicHeight;
+extern NSString *const kDynamicWidth;
+
 typedef NS_ENUM(NSUInteger, HYQIsFavourType) {
     HYQIsFavourType_NO,
     HYQIsFavourType_YES,
@@ -40,6 +43,8 @@ typedef NS_ENUM(NSUInteger, HYQIsFavourType) {
 
 
 - (void)setModelWithDic:(NSDictionary *)dic;
+
+- (void)setBasicModelDic:(NSDictionary *)dic;
 
 
 
